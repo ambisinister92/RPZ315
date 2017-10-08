@@ -8,7 +8,7 @@ public class UniversitySchedule {
 	static Random r = new Random();
 	
 	static final int MAX_LESSONS = 7;
-	
+	//THIS IS A TEXT. THE TEXT INTENDED ONLY FOR NEW COMMIT
 	static int count[];
 	static int groups;
 	static int minClassrooms;
