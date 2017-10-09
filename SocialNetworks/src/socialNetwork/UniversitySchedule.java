@@ -20,14 +20,14 @@ public class UniversitySchedule {
 			count = new int[MAX_LESSONS];
 			
 			cls();
-			
-			System.out.println("How many groups in your institution?");
-			while(!s.hasNextInt(10)){
-				System.out.println("Incorrect input! Repeat, please! ");
-				s.nextLine();
-			}
-			
-			groups = s.nextInt();
+			do {
+				System.out.println("Enter quantity of groups, but more then 0 and less then 1000");
+				while(!s.hasNextInt(10)){
+					System.out.println("Incorrect input! Repeat, please! ");
+					s.nextLine();
+				}
+				groups = s.nextInt();
+			}while(groups < 1 || groups > 1000);
 			if(s.hasNextLine())
 				s.nextLine();
 			for(int a = 0; a < groups; a++){
