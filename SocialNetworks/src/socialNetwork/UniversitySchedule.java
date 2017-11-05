@@ -65,3 +65,4 @@ public class UniversitySchedule {
 			System.out.println();
 	}
 }
+
