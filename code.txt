@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Random R1 = new Random();//random
+            Random R1 = new Random();//randomize
             int g, max = 0,temp;
             
             Console.WriteLine("Сколько групп студентов?");
