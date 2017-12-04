@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 num[i] = new int[7];
             }
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < 7; i++)//show
             {
                 Console.Write(i+1 + "  ");
                 for (int j = 0; j < g; j++)
